@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>差旅費報告表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        label {
+            display: inline-block;
+            width: 100px;
+        }
+        select, input {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>差旅費報告表</h1>
+    
+    <div class="section">
+        <h2>台北捷運</h2>
+        <div>
+            <label for="taipei-start">起始站：</label>
+            <select id="taipei-start">
+                <option value="">請選擇</option>
+                <option value="台北車站">台北車站</option>
+                <option value="忠孝復興">忠孝復興</option>
+                <option value="市政府">市政府</option>
+            </select>
+        </div>
+        <div>
+            <label for="taipei-end">終點站：</label>
+            <select id="taipei-end">
+                <option value="">請選擇</option>
+                <option value="台北車站">台北車站</option>
+                <option value="忠孝復興">忠孝復興</option>
+                <option value="市政府">市政府</option>
+            </select>
+        </div>
+        <div>
+            <label for="taipei-fee">金額：</label>
+            <input type="number" id="taipei-fee" min="0" step="1">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>台中捷運</h2>
+        <div>
+            <label for="taichung-start">起始站：</label>
+            <select id="taichung-start">
+                <option value="">請選擇</option>
+                <option value="北屯總站">北屯總站</option>
+                <option value="文心崇德">文心崇德</option>
+                <option value="台中車站">台中車站</option>
+            </select>
+        </div>
+        <div>
+            <label for="taichung-end">終點站：</label>
+            <select id="taichung-end">
+                <option value="">請選擇</option>
+                <option value="北屯總站">北屯總站</option>
+                <option value="文心崇德">文心崇德</option>
+                <option value="台中車站">台中車站</option>
+            </select>
+        </div>
+        <div>
+            <label for="taichung-fee">金額：</label>
+            <input type="number" id="taichung-fee" min="0" step="1">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>台灣高鐵 1</h2>
+        <div>
+            <label for="hsr1-start">起始站：</label>
+            <select id="hsr1-start">
+                <option value="">請選擇</option>
+                <option value="南港">南港</option>
+                <option value="台北">台北</option>
+                <option value="板橋">板橋</option>
+                <option value="台中">台中</option>
+            </select>
+        </div>
+        <div>
+            <label for="hsr1-end">終點站：</label>
+            <select id="hsr1-end">
+                <option value="">請選擇</option>
+                <option value="南港">南港</option>
+                <option value="台北">台北</option>
+                <option value="板橋">板橋</option>
+                <option value="台中">台中</option>
+            </select>
+        </div>
+        <div>
+            <label for="hsr1-fee">金額：</label>
+            <input type="number" id="hsr1-fee" min="0" step="1">
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>台灣高鐵 2</h2>
+        <div>
+            <label for="hsr2-start">起始站：</label>
+            <select id="hsr2-start">
+                <option value="">請選擇</option>
+                <option value="南港">南港</option>
+                <option value="台北">台北</option>
+                <option value="板橋">板橋</option>
+                <option value="台中">台中</option>
+            </select>
+        </div>
+        <div>
+            <label for="hsr2-end">終點站：</label>
+            <select id="hsr2-end">
+                <option value="">請選擇</option>
+                <option value="南港">南港</option>
+                <option value="台北">台北</option>
+                <option value="板橋">板橋</option>
+                <option value="台中">台中</option>
+            </select>
+        </div>
+        <div>
+            <label for="hsr2-fee">金額：</label>
+            <input type="number" id="hsr2-fee" min="0" step="1">
+        </div>
+    </div>
+</body>
+</html>
